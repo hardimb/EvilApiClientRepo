@@ -54,7 +54,6 @@
     <Compile Include="Domain\TaskProcessParam.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\IEvilAPIRepository.cs" />
-    <Compile Include="Repository\IProcessFileRepository.cs" />
     <Compile Include="Repository\IUploadFileRepository.cs" />
   </ItemGroup>
   <ItemGroup>

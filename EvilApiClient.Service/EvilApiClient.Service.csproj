@@ -68,7 +68,6 @@
   <ItemGroup>
     <Compile Include="EvilUploadRepository.cs" />
     <Compile Include="Hubs\FileUpladResultHub.cs" />
-    <Compile Include="ProcessFileRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UploadFileRepository.cs" />
   </ItemGroup>
