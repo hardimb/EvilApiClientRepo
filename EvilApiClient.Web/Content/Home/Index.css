@@ -1,0 +1,33 @@
+﻿.resultgrid{
+    height:250px;
+    overflow:auto;
+}
+.loader{
+    position:absolute;
+    top:50%;
+    left:50%;
+    background: url(../Images/loader.gif) no-repeat left;
+    width:150px;
+    height:16px;
+    padding-left:18px;    
+    display:none;
+}
+#uploadSuccess {
+    display:none;
+}
+#uploadFailed {
+    display:none;
+}
+.tablerow {
+}
+.successrow {
+    border-top: solid 1px #468847;
+    color:#468847;
+}
+.errorrow {
+    border-top:solid 1px #953b39;
+    color:#f00;
+}
+#fileprocessMessage {
+    display:none;
+}
