@@ -5,3 +5,10 @@ D:\Hardi_Workplace\Projects\EvilApiClient\EvilApiClient\EvilApiClient.Core\obj\D
 D:\Hardi_Workplace\Projects\EvilApiClient\EvilApiClient\EvilApiClient.Core\obj\Debug\EvilApiClient.Core.pdb
 D:\Hardi_Workplace\Projects\EvilApiClient\EvilApiClient\EvilApiClient.Core\bin\Debug\Newtonsoft.Json.dll
 D:\Hardi_Workplace\Projects\EvilApiClient\EvilApiClient\EvilApiClient.Core\bin\Debug\Newtonsoft.Json.xml
+D:\Hardi_Workplace\Evil\EvilApiClientRepo\EvilApiClient.Core\bin\Debug\EvilApiClient.Core.dll
+D:\Hardi_Workplace\Evil\EvilApiClientRepo\EvilApiClient.Core\bin\Debug\EvilApiClient.Core.pdb
+D:\Hardi_Workplace\Evil\EvilApiClientRepo\EvilApiClient.Core\bin\Debug\Newtonsoft.Json.dll
+D:\Hardi_Workplace\Evil\EvilApiClientRepo\EvilApiClient.Core\bin\Debug\Newtonsoft.Json.xml
+D:\Hardi_Workplace\Evil\EvilApiClientRepo\EvilApiClient.Core\obj\Debug\EvilApiClient.Core.csprojResolveAssemblyReference.cache
+D:\Hardi_Workplace\Evil\EvilApiClientRepo\EvilApiClient.Core\obj\Debug\EvilApiClient.Core.dll
+D:\Hardi_Workplace\Evil\EvilApiClientRepo\EvilApiClient.Core\obj\Debug\EvilApiClient.Core.pdb

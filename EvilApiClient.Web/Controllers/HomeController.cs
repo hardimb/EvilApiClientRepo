@@ -94,23 +94,10 @@ namespace EvilApiClient.Web.Controllers
         [HttpGet]        
         public int StartProcessingFile(string fileName,string username, string originalFileName)
         {
-            var fileInProcess= Session["fileInProcess"] as List<string>;
-
-            if (fileInProcess == null)
-            {
-                fileInProcess = new List<string>();
-                Session["fileInProcess"] = fileInProcess;
-            }
-
-            if (!fileInProcess.Contains(fileName))
-            {                
                uploadFileService.ProcessFileData(username, fileName, originalFileName, Server.MapPath(System.Configuration.ConfigurationManager.AppSettings["UploadFilePath"]),HttpContext.GetOwinContext().Authentication.User.Identity.Name);                
-                fileInProcess.Add(fileName);
-
+            
                 return 1;
-            }
-
-            return 2;
+        
         }
 
 

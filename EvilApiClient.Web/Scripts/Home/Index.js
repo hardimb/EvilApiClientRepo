@@ -108,8 +108,7 @@ $(document).ready(function ()
                     //alert(result);
                     $.connection.hub.start().done(function () {
 
-                        // Establish a connection
-                        hub.server.establishConnection($.connection.hub.id, $.connection.hub.id);
+                      
                         $(".loader").toggle(true);
                         $("#loaderMessage").html("Processing File");
                         // Start processing customer file
@@ -118,11 +117,7 @@ $(document).ready(function ()
                             method: "GET",
                             data: { fileName: fileProccessResult.FileName, username: fileProccessResult.UserName, originalFileName: fileProccessResult.OriginalFileName },
                             success: function (message) {
-                                if (message == 2) {
-                                    $("#fileprocessMessage").html("Process is started");
-                                } else {
-                                    $("#fileprocessMessage").html("Process is already started before, but you will still get the notification if in progress!");
-                                }
+                               
                             }
                         });
                     });
